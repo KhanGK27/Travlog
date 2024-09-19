@@ -1,0 +1,48 @@
+:root{
+    --InputColor: hsl(330, 12%, 97%);
+}
+
+.search__bar{
+    padding: 1rem;
+    border-radius: 1rem;
+    /*box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;*/
+    box-shadow: 0 2px 8px 4px rgba(178,178,178,0.45);
+    width: 100%;
+    justify-content: center;
+    transform: translate(-50%);
+    left: 50%;
+    background: #fff;
+    position: relative;
+    margin-top: 50px;
+}
+
+.form__group span{
+    font-size: 1.8rem;
+    color: blueviolet;
+}
+
+.form__group input{
+    width: 100%;
+    background: var(--InputColor);
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form__group input:focus{
+    margin-bottom: 0;
+}
+
+.btn__search{
+    width: 20%;
+    color: #fff;
+    font-weight: 600;
+    padding: .7rem 1.5rem;
+    background: var(--XanhTim);
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
